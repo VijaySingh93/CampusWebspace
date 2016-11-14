@@ -21,7 +21,7 @@ router.post("/register",function(req, res){
            req.flash("error",err.message);
            return res.render("register" ,{"error": err.message});
        }passport.authenticate("local")(req, res, function(){
-           req.flash("success","Welcome to Infosys Space"+ user.username);
+           req.flash("success","Welcome to Infosys Space "+ user.username);
            res.redirect("/campgrounds");
        });
    });
