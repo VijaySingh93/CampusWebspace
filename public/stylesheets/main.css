@@ -1,0 +1,39 @@
+body { 
+  background: url(/images/img5.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+#delete-form {
+    display: inline;
+}
+
+.landing-text {
+	color: #fff;
+}
+
+.landing-text a {
+	color: #fff;
+}
+
+.vertical-center-col {
+  margin-top: 30vh;
+}
