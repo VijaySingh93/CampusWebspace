@@ -19,7 +19,7 @@ var authRoutes = require("./routes/index");
 
 app.locals.moment = require('moment');
 
-var url = "mongodb://Vijay:Infy@ds023213.mlab.com:23213/yelpcamp";
+var url = process.env.DATABASEURL || "mongodb://localhost/YelpCamp";
 mongoose.connect(url);
 //mongodb://Vijay:Infy@ds023213.mlab.com:23213/yelpcamp
 // seedDB();
